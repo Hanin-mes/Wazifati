@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a6f4d4d8aa0c496bb155b43bad0407c5" Name="Diagram1">
+        <EntityTypeShape EntityType="WazAppModel.ApplyJob" Width="1.5" PointX="7.5" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WazAppModel.Education" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WazAppModel.Employee" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="WazAppModel.Employer" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WazAppModel.Experience" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WazAppModel.JobPost" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WazAppModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WazAppModel.SystemUser" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="WazAppModel.FK_ApplyJob_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="WazAppModel.FK_ApplyJob_JobPost" ManuallyRouted="false" />
+        <AssociationConnector Association="WazAppModel.FK_Education_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="WazAppModel.FK_Employee_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="WazAppModel.FK_Experience_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="WazAppModel.FK_Employer_SystemUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="WazAppModel.FK_JobPost_Employer" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
